@@ -293,7 +293,9 @@ main{
   flex-direction: row;
   padding-top: 50px;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* from cc */
+  justify-content: space-around;
   margin: 50px;
   align-items: center;
 }
@@ -767,7 +769,9 @@ textarea{
   padding-top: 200px;
 } */
 .coding-head h1, .noncoding-head h1{
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  /* from cc */
+  margin-top: 0px;
   font-size: 30px;
   text-align: center;
   font-weight: 700;
@@ -823,6 +827,7 @@ strong{
 }
 .enroll{
   margin-left: 0px;
+  margin-bottom: 10px;
   width: 20%;
   padding: 15px;
   font-size: 14px;
@@ -903,9 +908,9 @@ strong{
 }
 /*-----------------------------------------------blog----------------------------------------*/
 .container-2{
-  min-height: 60vh;
+  min-height: 80vh;
   width: 100%;
-  background-image: url('Images/blog1.jpg');
+  background-image: url('Images/blog-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -991,9 +996,11 @@ form div{
 
 
 /*-----------------------------------Media query Mobile----------------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   body{
-    max-width: 600px;
+    /* max-width: 600px; */
+    /* from cc smae for screen in above*/
+    max-width: 767px;
   }
    /*----------------------------Navbar toogle button-----------------------------------*/
  .navbar-toggler-icon{
@@ -1653,6 +1660,9 @@ form div{
    } */
   .shift{
     width: 100%;
+  }
+  .learn{
+    width: 60%;
   }
  #footer{
   margin-top: 50px;
