@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+  <!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" media="screen and (max-width: 700px)" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Littledrop-Education || Website</title>
+  <link rel="icon" type="image/svg" sizes="35x35" href="Images/title-img.svg">
+</head> -->
+<body id="home">
+  <div class="container1">
+  <%- include("./partials/nav.ejs") %>
+   
+  </div> 
+  <!-------------------------------------------------------------------End of Navbar----------------------------------->
+  <div class="about-pageimg"></div>
+  <section class="about-section">
+  <h1 class="about-title">About Us</h1>
+  <p>The Little Drop (LD) Coding e-Bootcamp is a project supported by City Open College Foundation – a non-profit college registered in Nigeria by the Corporate Affairs Commission with Registration No. 155074.</p>
+
+<section class="our-aim">
+  <h2>Our Mission</h2>
+  <div class="col-about1">
+  <p>Anyone that is over 18 and with the right attitude and aptitude to learn to program. Also, it’s important to note that it is designed mainly for busy individuals who perhaps think they can’t become programmers while we think they can. Our primary focus is not on “aptitude” but the “attitude” towards learning. Among our objectives are:
+    · To reduce the jobless rate by giving opportunities to highly dedicated individuals to gain digital skills that they can leverage for employment opportunities.
+    · To assist individuals who cannot afford expensive Bootcamps by providing an enabling environment to develop their employability skills to achieve their IT dreams.
+    
+  </p>
+  <img class="about-image" src="Images/e-learning.jpg">
+</div>
+<h2>Our Vision</h2>
+<div class="col-about1">
+  <p>Mentees should be able to develop their coding skills up to primary or developer’s level on comp the programme; Mentees should hope to transition into paid employment in the IT sector; Mentees should be willing to contribute positively to society through the use of their newly acquired skills.
+  </p>
+  <img class="about-image" src="Images/e-learning3.jpg">
+</div>
+<h2>Our Aim</h2>
+<div class="col-about1">
+  <p>To assist unemployed youth, empower women to develop employability skills and build a solid foundation in a chosen career path in IT.
+  </p>
+  <div>
+  <img class="about-image1" src="Images/banner.jpg">
+</div>
+</div>
+</section>
+</section>
+<!--------------------------------------------------------------------------->
+
+<%- include("./partials/footer.ejs") %>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+<script src="./server.js">
+var login = document.getElementById('login');
+var register = document.getElementById('register')
+var button = document.getElementById('btn');
+console.log(login,register, btn);
+
+function myRegister(){
+login.style.left ="-400px";
+register.style.left ="50px";
+button.style.left ="110px";
+}
+
+function myLogin(){
+login.style.left ="50px";
+register.style.left ="450px";
+button.style.left ="0px";
+}
+myRegister()
+myLogin()
+
+</script>
+
+</body>
+</html>
