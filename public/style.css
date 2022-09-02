@@ -1392,7 +1392,10 @@ form div{
 .container-2{
   background-image:url('Images/blog-banner.jpg');
   background-size: cover;
+  min-height: 80vh;
+  width: 100%;
 }
+
 .blog-row{
   flex-direction: column;
   margin: auto;
