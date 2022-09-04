@@ -912,12 +912,15 @@ strong{
   width: 100%;
   background-image: url('Images/blog-banner.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  /* overflow: hidden; */
+  /* padding-bottom: 50px; */
+  padding-bottom: 0px;
+  background-size: 100%;
+  background-position: center center; 
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
-  padding-bottom: 50px;
 }
 .blog-row{
   display: flex;
@@ -1390,10 +1393,7 @@ form div{
 }
 /*--------------------------------Blog-------------------------------------------------------------*/
 .container-2{
-  background-image:url('Images/blog-banner.jpg');
-  background-size: cover;
   min-height: 80vh;
-  width: 100%;
 }
 
 .blog-row{
