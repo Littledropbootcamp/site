@@ -666,7 +666,7 @@ overflow: hidden;
 
 
 /*------------------------------------------------contact-------------------------------------*/
-.container-3{
+/* .container-3{
   min-height: 60vh;
   width: 100%;
   background-image:url('Images/contact-us.jpg');
@@ -678,6 +678,18 @@ overflow: hidden;
   overflow: hidden;
   padding-bottom: 50px;  
   margin-bottom: 0px;
+} */
+.container-3{
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+.contact-banner{
+  width: 100%;
+  position: relative;
 }
 .contact-general{
   display: flex;
@@ -907,20 +919,29 @@ strong{
   color:#fe6601;
 }
 /*-----------------------------------------------blog----------------------------------------*/
-.container-2{
+/* .container-2{
   min-height: 80vh;
   width: 100%;
   background-image: url('Images/blog-banner.jpg');
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* overflow: hidden; */
-  /* padding-bottom: 50px; */
   padding-bottom: 0px;
   background-size: 100%;
   background-position: center center; 
   position: relative;
   top: 0px;
   left: 0px;
+} */
+.container-2{
+  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  padding-bottom: 0px;
+}
+.blog-banner{
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  position: relative;
 }
 .blog-row{
   display: flex;
@@ -1393,7 +1414,13 @@ form div{
 }
 /*--------------------------------Blog-------------------------------------------------------------*/
 .container-2{
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  padding-bottom: 0px;
+}
+
+.blog-banner{
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .blog-row{
@@ -1514,7 +1541,12 @@ form div{
 }
 /*-------------------------Contact Page-------------------------------------------------------------------------------*/
 .container-3{
-  background-image:url('Images/mobile-contact.jpg');
+  /* background-image:url('Images/mobile-contact.jpg'); */
+  padding-bottom: 0px;
+}
+.contact-banner{
+  margin-top: 100px;
+  margin-right: 0%;
 }
 .contact-section h1{
   font-size: 22px;
